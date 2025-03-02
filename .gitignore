@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.h5
+*.sqlite
+*.db
+*.pkl
+*.joblib
+*.npz
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# ML artifacts
+model/
+checkpoints/
+saved_models/
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# TensorBoard logs
+logs/
+tb_logs/
+
+# Config files
+config.yaml
+config.json
+params.yaml
+
+# Local development files
+*.env
+*.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Cache and temporary files
+.cache/
+*.temp
+*.tmp
